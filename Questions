@@ -1,0 +1,15 @@
+HTML TEXT FORMATTING, LISTS EXERCISES
+a. Print the squares of the numbers 1 - 20. Each number should be on a separate line, next to it the number 2 superscripted, an equal sign and theresult.
+
+b. Prints 10 names with a line break between each name. The list should bealphabetized, and to do this place a subscripted number next to each name based on where it will go in the alphabetized list. (Example: Alan1). Print first, the unalphabetized list with a subscript number next to each name, then thealphabetized list. Both lists should have an <h1> level heading.
+
+c. Print two lists with any information you want. One list should be an ordered list, the other list should be an unordered list
+
+d. Print a list which starts with 7 with the type i
+
+e. Prints an h1 level heading followed by a horizontal line whose width is 100%. Below the horizontal line print a paragraph relating to the text in the heading.
+
+f. Print a definition list with 5 items
+
+
+
