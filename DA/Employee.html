@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>
+        22MCA0001
+    </title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin-left: 30%;
+            margin-right: 30%;
+
+        }
+
+        .header img {
+            width: 60px;
+            height: 60px;
+            float: left;
+        }
+
+        .header h1 {
+            color: red;
+            font-weight: 400;
+            position: relative;
+            top: 18px;
+            left: 10px;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column1 {
+            flex: 40%;
+            text-align: center;
+        }
+
+        .column2 {
+            flex: 40%;
+            text-align: left;
+        }
+
+        input {
+            margin-top: 5px;
+        }
+
+        p {
+            margin-bottom: -7px;
+        }
+
+        .NextLine {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../Image/Employee.png" alt="Logo">
+        <h1>Employee Registration Form</h1>
+    </div>
+    <br>
+    <div class="row">
+        <div class="column1">
+
+            <p style="padding-top: 10px;"><label for="FirstName">First Name</label></p>
+            <p><label for="LastName">LastName</label></p>
+            <p><label for="Mail1">Mail Address1</label></p>
+            <p><label for="Mail2">Mail Address2</label></p>
+            <p><label for="City">City</label></p>
+            <p><label for="State">State</label></p>
+            <p><label for="Zip">Zip</label></p>
+            <p><label for="Upload Photo">Upload Photo</label></p>
+            <p><label for="Email"></label>Email</p>
+            <p><label for="Mobile">Mobile</label></p>
+            <p><label for="Language">Languages Known</label></p>
+            <p style="margin-top: 100px;"><label for="Additional">Additional Information</label></p>
+        </div>
+        <div class="column2">
+            <form>
+                <input type="radio" value="Mr.">
+                <label for="Mr.">Mr.</label>
+                <input type="radio" value="Mrs.">
+                <label for="Mrs.">Mrs.</label>
+                <input type="radio" value="Ms.">
+                <label for="Ms.">Ms.</label>
+                <input type="text" name="FirstName" placeholder="FirstName">
+                <input type="text" name="LastName" placeholder="LastName">
+                <input type="text" name="Mail1" id="Mail1">
+                <input type="text" name="Mail2" id="Mail2">
+                <input type="text" name="City" id="City"><br>
+                <select class="NextLine" name="States" id="States">
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                </select><br>
+                <input type="text" name="Zip" id="Zip">
+                <input type="file" name="Upload Photo">
+                <input type="text" name="email" id="email">
+                <input type="text" name="Mobile" id="Mobile" placeholder="+91">
+                <br>
+                <input type="checkbox" value="English">
+                <label for="English">English</label><br>
+                <input type="checkbox" value="Tamil">
+                <label for="Tamil">Tamil</label><br>
+                <input type="checkbox" value="Hindi">
+                <label for="Hindi">Hindi</label><br>
+                <textarea style="margin-top: 20px;" cols="30" rows="5" placeholder="Optional"></textarea>
+                <button>submit</button>
+                <button>reset</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

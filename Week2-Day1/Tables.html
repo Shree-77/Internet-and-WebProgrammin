@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>5th Assignment</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+
+        .Table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 2px;
+        }
+
+        .Table {
+            margin-left: auto;
+            margin-right: auto;
+            empty-cells: hide;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        table .Table2 {
+            table-layout: fixed;
+            width: 50px;
+        }
+
+        .Table2 th,
+        td {
+            border: 1px solid black;
+            padding: 3px;
+            width: 120px;
+            height: 40px;
+        }
+
+        .Table2 {
+            margin-left: auto;
+            margin-right: auto;
+            empty-cells: hide;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table class="Table">
+        <tr class="Header">
+            <th colspan="12">Purchased Equipments(June 2006)</th>
+        </tr>
+
+        <tr class="Title">
+            <th rowspan="2">Item Num#</th>
+            <th rowspan="2">Item Picture</th>
+            <th colspan="4">Item Description</th>
+            <th colspan="4">Price</th>
+        </tr>
+        <tr class="Title2">
+            <th colspan="4">Shipping Handling, Installation, etc</th>
+            <th colspan="4">Expenses</th>
+        </tr>
+
+
+        <tr class="Item1">
+            <td rowspan="2">1.</td>
+            <td rowspan="2"><img src="../Week1/image1.jpg" alt="Image"></td>
+            <td colspan="4">IBM Computer Clone</td>
+            <td colspan="4">$400.00</td>
+        </tr>
+        <tr class="Item1(2)">
+            <td colspan="4">Shipping Handling, Installation, etc</td>
+            <td colspan="4">$20.00</td>
+        </tr>
+
+
+        <tr class="Item2">
+            <td rowspan="2">2.</td>
+            <td rowspan="2"><img src="../Week1/image1.jpg" alt="Images2"></td>
+            <td colspan="4">1 GB RAM Module for Computer</td>
+            <td colspan="4">$50.00</td>
+        </tr>
+        <tr class="Item2(2)">
+            <td colspan="4">Shipping Handling, Installation, etc</td>
+            <td colspan="4">$14.00</td>
+        </tr>
+        <tr class="Footer">
+            <th colspan="12">Purchased Equipments (June 2006)</th>
+        </tr>
+    </table>
+    <br><br><br>
+
+
+    <table class="Table2">
+        <tr>
+            <th colspan="4">
+                Table Heading Cell Spanning 4 Columns
+            </th>
+        </tr>
+        <tr>
+            <td colspan="1">Normal Cell</td>
+            <td colspan="2">Cell Spanning 2 columns</td>
+            <td>Normal Cell</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="background-color: gray;">
+                <p style="text-align: center;">Cell spanning 3
+                    rows with a gray
+                    (US Spelling)
+                    background</p>
+            </td>
+            <td>Normal Cell</td>
+            <td>Normal Cell</td>
+            <td>Normal Cell</td>
+        </tr>
+        <tr>
+            <td>
+                <p>Normal Cell</p>
+            </td>
+            <td rowspan="2" colspan="2">
+                <p>Cell Spanning 2 rows and 2
+                    columns</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Normal Cell</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

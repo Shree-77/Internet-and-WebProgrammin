@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>6th Assignment</title>
+    <meta charset="utf-8">
+
+    <style>
+        .myform {
+            border: 1px solid black;
+            height: 450px;
+            width: 350px;
+            margin: 0 auto;
+            background-color: rgba(241, 236, 236, 0.686);
+        }
+
+        .header p {
+            padding-right: 20px;
+            padding-bottom: 0;
+            display: flex;
+            font-weight: 900;
+            justify-content: right;
+            margin: 0;
+            background-color: rgb(151, 145, 145);
+        }
+
+        table td {
+            padding: 2px;
+            margin: 2px;
+        }
+
+        .myform table {
+            text-align: center;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .Pizza {
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+
+        table.Pizza td,
+        th {
+            border: 2px solid black;
+        }
+
+        .Pizza ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="myform">
+        <div class="header">
+            <p>The World of Fruit</p>
+        </div>
+        <p style="display: flex; justify-content: end; font-weight: 900;padding-right: 50px; margin:10px 0;">
+            Fruit Survey</p>
+        <table>
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>How many piece of fruit </td>
+                <td style="text-align: left;"><input type="radio">0</td>
+            </tr>
+            <tr>
+                <td>do you eat per day?</td>
+                <td style="text-align: left;"><input type="radio">1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: left;"><input type="radio">2</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: left;"><input type="radio">More than 2</td>
+            </tr>
+            <tr>
+                <td>My favourite fruit</td>
+                <td style="display: flex;">
+                    <select multiple size="3">
+                        <option value="Apple">Apple</option>
+                        <option value="Banana">Banana</option>
+                        <option value="orange">Orange</option>
+                        <option value="Strawberry">Strawberry</option>
+                        <option value="Grapes"></option>
+                        <option value="Mango">Mango</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>would you like a</td>
+                <td style="display: flex;"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>a brouchure?</td>
+            </tr>
+        </table>
+        <div class="button">
+            <button>Submit</button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <table class="Pizza">
+
+        <tr>
+            <th colspan="6">Pizza shop 2.0</th>
+        </tr>
+        <tr>
+            <td colspan="3">Name</td>
+            <td><input type=" text">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Pizza Toping</td>
+            <td>
+                <ul>
+                    <li><input type="radio">Supreme</li>
+                    <li><input type="radio">Vegetarion</li>
+                    <li><input type="radio">Hawaiian</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                Pizza Sauce
+            </td>
+            <td>
+                <select name="Options">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Chilli">Chilli</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Optional Extras</td>
+            <td style="display: flex;">
+                <input type="checkbox">Extra Cheese
+                <input type="checkbox">Gluten Free base
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <p>Delivery Instructions : </p>
+                <input type="text" style="width: 350px; height: 70px; margin: 0;;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6"><button>Send my Order</button></td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
